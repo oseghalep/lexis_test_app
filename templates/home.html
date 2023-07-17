@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Paul Insurance Company</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About Us</a></li>
+                <li><a href="/services">Our Services</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="slider">
+            <img src="{{ url_for('static', filename='images/image1.jpg') }}" alt="Image 1">
+            <img src="{{ url_for('static', filename='images/image2.jpg') }}" alt="Image 2">
+            <img src="{{ url_for('static', filename='images/image3.jpg') }}" alt="Image 3">
+        </div>
+
+        <section>
+            <h2>Our Services</h2>
+            <p>At Insurance Company, we offer a range of comprehensive insurance services to protect you and your assets:</p>
+            <ul>
+                <li>Car Insurance: We provide coverage options tailored to your needs, ensuring you're protected on the road.</li>
+                <li>House Insurance: Safeguard your home and belongings with our customizable house insurance policies.</li>
+                <li>Life Insurance: Protect your loved ones' financial future with our life insurance plans, offering peace of mind and security.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>About Us</h2>
+            <p>Insurance Company is a leading provider of insurance solutions, committed to serving our clients' needs and providing exceptional service. With over 20 years of industry experience, we have built a reputation for reliability, trust, and customer satisfaction.</p>
+            <p>Our dedicated team of insurance professionals works tirelessly to assess risks, develop comprehensive coverage plans, and deliver personalized solutions tailored to each client's unique requirements. We believe in building long-term relationships and offering ongoing support to ensure our clients have the protection they need.</p>
+            <p>At Insurance Company, we prioritize transparency, integrity, and customer-centricity. We take the time to understand your specific needs and goals, providing expert guidance and advice to help you make informed decisions about your insurance coverage.</p>
+            <p>Choose Insurance Company for reliable insurance solutions backed by industry expertise and a commitment to your peace of mind.</p>
+        </section>
+
+        <section>
+            <h2>How It Works</h2>
+            <p>Insurance works by providing financial protection against unexpected events or losses. Here's a simplified overview of how insurance operates:</p>
+            <ol>
+                <li>Policy Creation: You select the type of insurance coverage you need and purchase a policy from an insurance provider like Insurance Company.</li>
+                <li>Premium Payments: You pay regular premiums to the insurance company. The amount of the premium depends on various factors, such as the level of coverage, your risk profile, and the duration of the policy.</li>
+                <li>Claims Process: If an insured event occurs, such as a car accident or damage to your property, you can file a claim with your insurance company. The company will assess the claim and, if approved, provide compensation or cover the costs up to the policy limits.</li>
+                <li>Policy Renewal: Insurance policies typically have a specific term. At the end of the term, you can renew the policy by paying the required premium for another term or make any necessary adjustments to the coverage.</li>
+                <li>Peace of Mind: Insurance offers you peace of mind, knowing that you have financial protection in case of unforeseen events. It helps mitigate risks and provides a safety net for you and your loved ones.</li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Insurance Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
